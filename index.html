@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaheen Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--now if I create another div after the top div then it will come below the top div as usual but I want it to be side by
+     side of top div for that I have to put both of them in a parent div let it be now contianer div and in the style sheet I will
+    be using flexbox for this-->
+    <div class="container">
+        <div id="top1">
+            <nav>
+                <ul>
+                    <li><a href="/"  target="_blank">Home</a></li>
+                    <li><a href="/About_me.html"  target="_blank">About Me</a></li>
+                    <li><a href="/cv.html"  target="_blank">CV</a></li>
+                    <li><a href="/certficates.html"  target="_blank">My Certificates</a></li>
+                    <li><a href="/leetcode.html"  target="_blank">My Leetcode Profile</a></li>
+                    <li><a href="/git.html"  target="_blank">Github</a></li>
+                    <li><a href="/linkedn.html"  target="_blank">Linkedin</a></li>
+                    <li><a href="/replit.html"  target="_blank">My Replit</a></li>
+                    <li><a href="/skills.html"  target="_blank">My Skills</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="top2">
+            <div class="hambergurger">
+                <img src="hamberg.png" class="ham" width="23px">
+                <img src="cross.png" class="cross" width="23px">
+            </div>
+            <div class="top2_subclass" >
+                <div class="info_div">
+                    <div class="intro"><i>Hi there</i></div>
+                    <div class="intro2"><i>I am Shaheen Jalal</i></div>
+                    <div class="button_div">
+                      <a href="cv.txt" target="_blank"><button>My CV</button></a>
+                      <a href="/contact.html"  target="_blank"><button>Contact me</button></a>
+                    </div>
+                </div>
+                <div id="photo_div"><img src="photo.png"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+
+</html>
